@@ -88,6 +88,7 @@ input {border:none;outline:none;}
 .fl {float:left;}
 .fr {float:right;}
 /*边距/p,m*/
+.pt0 {padding-top:0;}
 .p5 {padding:0.05rem;}
 .p10 {padding:0.10rem;}
 .p12 {padding:0.12rem;}
@@ -104,6 +105,7 @@ input {border:none;outline:none;}
 .p90 {padding:0.90rem;}
 .p100 {padding:1rem;}
 
+.pl0 {padding-left:0.00rem;}
 .pl5 {padding-left:0.05rem;}
 .pl10 {padding-left:0.10rem;}
 .pl12 {padding-left:0.12rem;}
@@ -120,6 +122,7 @@ input {border:none;outline:none;}
 .pl90 {padding-left:0.90rem;}
 .pl100 {padding-left:1rem;}
 
+.pr0 {padding-right:0.00rem;}
 .pr5 {padding-right:0.05rem;}
 .pr10 {padding-right:0.10rem;}
 .pr12 {padding-right:0.12rem;}
@@ -136,6 +139,7 @@ input {border:none;outline:none;}
 .pr90 {padding-right:0.90rem;}
 .pr100 {padding-right:1rem;}
 
+.pt0 {padding-top:0.00rem;}
 .pt5 {padding-top:0.05rem;}
 .pt10 {padding-top:0.10rem;}
 .pt12 {padding-top:0.12rem;}
@@ -152,6 +156,7 @@ input {border:none;outline:none;}
 .pt90 {padding-top:0.90rem;}
 .pt100 {padding-top:1rem;}
 
+.pb0 {padding-bottom:0.00rem;}
 .pb5 {padding-bottom:0.05rem;}
 .pb10 {padding-bottom:0.10rem;}
 .pb12 {padding-bottom:0.12rem;}
@@ -168,13 +173,9 @@ input {border:none;outline:none;}
 .pb90 {padding-bottom:0.90rem;}
 .pb100 {padding-bottom:1rem;}
 
-.p0 {padding:0;}
-.pt0 {padding-top:0;}
-.pr0 {padding-right:0;}
-.pb0 {padding-bottom:0;}
-.pl0 {padding-left:0;}
 
 /*边距margin/p,m*/
+.m0 {margin:0.00rem;}
 .m5 {margin:0.05rem;}
 .m10 {margin:0.10rem;}
 .m12 {margin:0.12rem;}
@@ -191,6 +192,7 @@ input {border:none;outline:none;}
 .m90 {margin:0.90rem;}
 .m100 {margin:1rem;}
 
+.ml0 {margin-left:0.00rem;}
 .ml5 {margin-left:0.05rem;}
 .ml10 {margin-left:0.10rem;}
 .ml12 {margin-left:0.12rem;}
@@ -207,6 +209,7 @@ input {border:none;outline:none;}
 .ml90 {margin-left:0.90rem;}
 .ml100 {margin-left:1rem;}
 
+.mr0 {margin-right:0.00rem;}
 .mr5 {margin-right:0.05rem;}
 .mr10 {margin-right:0.10rem;}
 .mr12 {margin-right:0.12rem;}
@@ -223,6 +226,7 @@ input {border:none;outline:none;}
 .mr90 {margin-right:0.90rem;}
 .mr100 {margin-right:1rem;}
 
+.mt0 {margin-top:0.00rem;}
 .mt5 {margin-top:0.05rem;}
 .mt10 {margin-top:0.10rem;}
 .mt12 {margin-top:0.12rem;}
@@ -239,6 +243,7 @@ input {border:none;outline:none;}
 .mt90 {margin-top:0.90rem;}
 .mt100 {margin-top:1rem;}
 
+.mb0 {margin-bottom:0.00rem;}
 .mb5 {margin-bottom:0.05rem;}
 .mb10 {margin-bottom:0.10rem;}
 .mb12 {margin-bottom:0.12rem;}
@@ -255,11 +260,7 @@ input {border:none;outline:none;}
 .mb90 {margin-bottom:0.90rem;}
 .mb100 {margin-bottom:1rem;}
 
-.m0 {margin:0;}
-.mt0 {margin-top:0;}
-.mr0 {margin-right:0;}
-.mb0 {margin-bottom:0;}
-.ml0 {margin-left:0;}
+
 
 /*宽高*/
 .w5 {width:0.05rem;}
@@ -317,6 +318,75 @@ input {border:none;outline:none;}
 .h30p {height:30%;}
 .h20p {height:20%;}
 .h10p {height:10%;}
+
+/*abs用*/
+t0 {top:0.00rem;}
+t5 {top:0.05rem;}
+t10 {top:0.10rem;}
+t12 {top:0.12rem;}
+t15 {top:0.15rem;}
+t20 {top:0.20rem;}
+t25 {top:0.25rem;}
+t30 {top:0.30rem;}
+t35 {top:0.35rem;}
+t40 {top:0.40rem;}
+t50 {top:0.50rem;}
+t60 {top:0.60rem;}
+t70 {top:0.70rem;}
+t80 {top:0.80rem;}
+t90 {top:0.90rem;}
+t100 {top:1rem;}
+
+.b0 {bottom:0.00rem;}
+.b5 {bottom:0.05rem;}
+.b10 {bottom:0.10rem;}
+.b12 {bottom:0.12rem;}
+.b15 {bottom:0.15rem;}
+.b20 {bottom:0.20rem;}
+.b25 {bottom:0.25rem;}
+.b30 {bottom:0.30rem;}
+.b35 {bottom:0.35rem;}
+.b40 {bottom:0.40rem;}
+.b50 {bottom:0.50rem;}
+.b60 {bottom:0.60rem;}
+.b70 {bottom:0.70rem;}
+.b80 {bottom:0.80rem;}
+.b90 {bottom:0.90rem;}
+.b100 {bottom:1rem;}
+
+.l0 {left:0.00rem;}
+.l5 {left:0.05rem;}
+.l10 {left:0.10rem;}
+.l12 {left:0.12rem;}
+.l15 {left:0.15rem;}
+.l20 {left:0.20rem;}
+.l25 {left:0.25rem;}
+.l30 {left:0.30rem;}
+.l35 {left:0.35rem;}
+.l40 {left:0.40rem;}
+.l50 {left:0.50rem;}
+.l60 {left:0.60rem;}
+.l70 {left:0.70rem;}
+.l80 {left:0.80rem;}
+.l90 {left:0.90rem;}
+.l100 {left:1rem;}
+
+.r0 {right:0.00rem;}
+.r5 {right:0.05rem;}
+.r10 {right:0.10rem;}
+.r12 {right:0.12rem;}
+.r15 {right:0.15rem;}
+.r20 {right:0.20rem;}
+.r25 {right:0.25rem;}
+.r30 {right:0.30rem;}
+.r35 {right:0.35rem;}
+.r40 {right:0.40rem;}
+.r50 {right:0.50rem;}
+.r60 {right:0.60rem;}
+.r70 {right:0.70rem;}
+.r80 {right:0.80rem;}
+.r90 {right:0.90rem;}
+.r100 {right:1rem;}
 
 /*边框bd*/
 .bdb1 {border-bottom:1px solid #e4e4e4;}
