@@ -79,7 +79,8 @@ input {border:none;outline:none;}
 .c3 {color:#333;}
 .c6 {color:#666;}
 .c9 {color:#999;}
-.white {color:#ffffff}
+.white {color:white}
+.black {color:black}
 /*文本对齐 center,right*/
 .tac {text-align:center;}
 .tar {text-align:right;}
@@ -98,6 +99,7 @@ input {border:none;outline:none;}
 .p30 {padding:0.30rem;}
 .p35 {padding:0.35rem;}
 .p40 {padding:0.40rem;}
+.p45 {padding:0.45rem;}
 .p50 {padding:0.50rem;}
 .p60 {padding:0.60rem;}
 .p70 {padding:0.70rem;}
@@ -115,6 +117,7 @@ input {border:none;outline:none;}
 .pl30 {padding-left:0.30rem;}
 .pl35 {padding-left:0.35rem;}
 .pl40 {padding-left:0.40rem;}
+.pl45 {padding-left:0.45rem;}
 .pl50 {padding-left:0.50rem;}
 .pl60 {padding-left:0.60rem;}
 .pl70 {padding-left:0.70rem;}
@@ -132,6 +135,7 @@ input {border:none;outline:none;}
 .pr30 {padding-right:0.30rem;}
 .pr35 {padding-right:0.35rem;}
 .pr40 {padding-right:0.40rem;}
+.pr45 {padding-right:0.45rem;}
 .pr50 {padding-right:0.50rem;}
 .pr60 {padding-right:0.60rem;}
 .pr70 {padding-right:0.70rem;}
@@ -149,6 +153,7 @@ input {border:none;outline:none;}
 .pt30 {padding-top:0.30rem;}
 .pt35 {padding-top:0.35rem;}
 .pt40 {padding-top:0.40rem;}
+.pt45 {padding-top:0.45rem;}
 .pt50 {padding-top:0.50rem;}
 .pt60 {padding-top:0.60rem;}
 .pt70 {padding-top:0.70rem;}
@@ -166,6 +171,7 @@ input {border:none;outline:none;}
 .pb30 {padding-bottom:0.30rem;}
 .pb35 {padding-bottom:0.35rem;}
 .pb40 {padding-bottom:0.40rem;}
+.pb45 {padding-bottom:0.45rem;}
 .pb50 {padding-bottom:0.50rem;}
 .pb60 {padding-bottom:0.60rem;}
 .pb70 {padding-bottom:0.70rem;}
@@ -185,6 +191,7 @@ input {border:none;outline:none;}
 .m30 {margin:0.30rem;}
 .m35 {margin:0.35rem;}
 .m40 {margin:0.40rem;}
+.m45 {margin:0.45rem;}
 .m50 {margin:0.50rem;}
 .m60 {margin:0.60rem;}
 .m70 {margin:0.70rem;}
@@ -202,6 +209,7 @@ input {border:none;outline:none;}
 .ml30 {margin-left:0.30rem;}
 .ml35 {margin-left:0.35rem;}
 .ml40 {margin-left:0.40rem;}
+.ml45 {margin-left:0.45rem;}
 .ml50 {margin-left:0.50rem;}
 .ml60 {margin-left:0.60rem;}
 .ml70 {margin-left:0.70rem;}
@@ -219,6 +227,7 @@ input {border:none;outline:none;}
 .mr30 {margin-right:0.30rem;}
 .mr35 {margin-right:0.35rem;}
 .mr40 {margin-right:0.40rem;}
+.mr45 {margin-right:0.45rem;}
 .mr50 {margin-right:0.50rem;}
 .mr60 {margin-right:0.60rem;}
 .mr70 {margin-right:0.70rem;}
@@ -236,6 +245,7 @@ input {border:none;outline:none;}
 .mt30 {margin-top:0.30rem;}
 .mt35 {margin-top:0.35rem;}
 .mt40 {margin-top:0.40rem;}
+.mt45 {margin-top:0.45rem;}
 .mt50 {margin-top:0.50rem;}
 .mt60 {margin-top:0.60rem;}
 .mt70 {margin-top:0.70rem;}
@@ -253,6 +263,7 @@ input {border:none;outline:none;}
 .mb30 {margin-bottom:0.30rem;}
 .mb35 {margin-bottom:0.35rem;}
 .mb40 {margin-bottom:0.40rem;}
+.mb40 {margin-bottom:0.45rem;}
 .mb50 {margin-bottom:0.50rem;}
 .mb60 {margin-bottom:0.60rem;}
 .mb70 {margin-bottom:0.70rem;}
@@ -272,6 +283,7 @@ input {border:none;outline:none;}
 .w30 {width:0.30rem;}
 .w35 {width:0.35rem;}
 .w40 {width:0.40rem;}
+.w45 {width:0.45rem;}
 .w50 {width:0.50rem;}
 .w60 {width:0.60rem;}
 .w70 {width:0.70rem;}
@@ -288,6 +300,7 @@ input {border:none;outline:none;}
 .h30 {height:0.30rem;}
 .h35 {height:0.35rem;}
 .h40 {height:0.40rem;}
+.h45 {height:0.45rem;}
 .h50 {height:0.50rem;}
 .h60 {height:0.60rem;}
 .h70 {height:0.70rem;}
@@ -330,6 +343,7 @@ t25 {top:0.25rem;}
 t30 {top:0.30rem;}
 t35 {top:0.35rem;}
 t40 {top:0.40rem;}
+t45 {top:0.45rem;}
 t50 {top:0.50rem;}
 t60 {top:0.60rem;}
 t70 {top:0.70rem;}
@@ -347,6 +361,7 @@ t100 {top:1rem;}
 .b30 {bottom:0.30rem;}
 .b35 {bottom:0.35rem;}
 .b40 {bottom:0.40rem;}
+.b45 {bottom:0.45rem;}
 .b50 {bottom:0.50rem;}
 .b60 {bottom:0.60rem;}
 .b70 {bottom:0.70rem;}
@@ -364,6 +379,7 @@ t100 {top:1rem;}
 .l30 {left:0.30rem;}
 .l35 {left:0.35rem;}
 .l40 {left:0.40rem;}
+.l45 {left:0.45rem;}
 .l50 {left:0.50rem;}
 .l60 {left:0.60rem;}
 .l70 {left:0.70rem;}
@@ -381,6 +397,7 @@ t100 {top:1rem;}
 .r30 {right:0.30rem;}
 .r35 {right:0.35rem;}
 .r40 {right:0.40rem;}
+.r45 {right:0.45rem;}
 .r50 {right:0.50rem;}
 .r60 {right:0.60rem;}
 .r70 {right:0.70rem;}
@@ -416,7 +433,12 @@ t100 {top:1rem;}
 .clear {zoom:1;}
 .clear::after {content:"";display:block;clear:both;}
 .line1 {overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-.line2 {display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;}
+.line2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden;
+}
 .z-1 {z-index:-1;}
 .z-2 {z-index:-2;}
 .z-3 {z-index:-3;}
@@ -425,8 +447,10 @@ t100 {top:1rem;}
 .z3 {z-index:300;}
 .z4 {z-index:400;}
 .z5 {z-index:500;}
-.cup {cursor:pointer}
+.cup {cursor:pointer;}
 .mauto {margin:0 auto;}
+.bg-white{background: white;}
+.bg-black{background: black;}
 /*常用按钮*/
 btn.active,.btn:active {background-image:none;outline:0;-webkit-box-shadow:inset 0 3px 0.05rem rgba(0,0,0,.125);box-shadow:inset 0 3px 0.05rem rgba(0,0,0,.125);}
 .btn {display:inline-block;padding:0.06rem 0.12rem;cursor:pointer;border:1px solid transparent;border-radius:0.04rem;}
