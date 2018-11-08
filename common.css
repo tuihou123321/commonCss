@@ -18,6 +18,10 @@ input {border:none;outline:none;}
 .di {display:inline;}
 .dib {display:inline-block;}
 .df {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: -moz-box;display: -moz-flex;display: flex;}
+
+/*隐藏*/
+.vh{visibility: hidden;}
+
 /*flex布局相关,水平对齐，垂直对齐*/
 .fx1 {  -webkit-box-flex: 1;-webkit-flex: 1;-moz-box-flex: 1;-moz-flex: 1;-ms-flex: 1;flex: 1;}
 .fx2 {  -webkit-box-flex: 2;-webkit-flex: 2;-moz-box-flex: 2;-moz-flex: 2;-ms-flex: 2;flex: 2;}
@@ -30,12 +34,50 @@ input {border:none;outline:none;}
 .fx9 {  -webkit-box-flex: 9;-webkit-flex: 9;-moz-box-flex: 9;-moz-flex: 9;-ms-flex: 9;flex: 9;}
 .fx10 {  -webkit-box-flex: 10;-webkit-flex: 10;-moz-box-flex: 10;-moz-flex: 10;-ms-flex: 10;flex: 10;}
 
-.jcc {justify-content:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;-o-justify-content:center;}
-.jcb {justify-content:space-between;-webkit-justify-content:space-between;-moz-justify-content:space-between;-ms-justify-content:space-between;-o-justify-content:space-between;}
-.jca {justify-content:space-around;-webkit-justify-content:space-around;-moz-justify-content:space-around;-ms-justify-content:space-around;-o-justify-content:space-around;}
-.aic {align-items:center;-webkitalign-items:center;-mozalign-items:center;-msalign-items:center;-oalign-items:center;}
-.aifs {align-content:flex-start;-webkit-align-content:center;-moz-align-content:center;-ms-align-content:center;-o-align-content:center;}
-.aibl {align-items:baseline;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;-o-align-items:center;}
+/*flex水平对齐,start,center,end,between,around*/
+.jcs {justify-content: flex-start;}
+.jcc {justify-content:center;}
+.jce{justify-content: flex-end;}
+.jcsb {justify-content:space-between;}
+.jcsa {justify-content:space-around;}
+
+
+/*flex垂直对齐,start,center,end,stretch*/
+.ais{align-items: flex-start;}
+.aic {align-items:center}
+.aie{align-items: flex-end;}
+.aisr{align-items: stretch;}
+
+
+/*flex 内容垂直对齐，start,center,end,*/
+.acs{align-content: flex-start;}
+.acc{align-content: center;}
+.ace{align-content: flex-end;}
+.acsb{align-content: space-between;}
+.acsa{align-content: space-around;}
+
+
+/*flex方向，水平row，垂直column*/
+.fxdc{flex-direction: column;}
+.fxdcr{flex-direction: column-reverse;}
+.fxdr{flex-direction: row;}
+.fxdrr{flex-direction: row-reverse;}
+
+
+/*flex水平方向换行*/
+.fxww{flex-wrap: wrap;}
+.fxwn{flex-wrap: nowrap;}
+.fxwr{flex-wrap: wrap-reverse;}
+
+/*flex垂直拉伸效果*/
+
+
+
+/*order排序*/
+.od1{order: 1;}
+.od2{order: 2;}
+.od3{order: 3;}
+
 /*透明度*/
 .op1 {opacity:0.1;}
 .op2 {opacity:0.2;}
@@ -299,8 +341,11 @@ input {border:none;outline:none;}
 .h20 {height:0.20rem;}
 .h25 {height:0.25rem;}
 .h30 {height:0.30rem;}
+.h32 {height:0.32rem;}
 .h35 {height:0.35rem;}
 .h40 {height:0.40rem;}
+
+
 .h45 {height:0.45rem;}
 .h50 {height:0.50rem;}
 .h60 {height:0.60rem;}
@@ -334,23 +379,23 @@ input {border:none;outline:none;}
 .h10p {height:10%;}
 
 /*abs用*/
-t0 {top:0.00rem;}
-t5 {top:0.05rem;}
-t10 {top:0.10rem;}
-t12 {top:0.12rem;}
-t15 {top:0.15rem;}
-t20 {top:0.20rem;}
-t25 {top:0.25rem;}
-t30 {top:0.30rem;}
-t35 {top:0.35rem;}
-t40 {top:0.40rem;}
-t45 {top:0.45rem;}
-t50 {top:0.50rem;}
-t60 {top:0.60rem;}
-t70 {top:0.70rem;}
-t80 {top:0.80rem;}
-t90 {top:0.90rem;}
-t100 {top:1rem;}
+.t0 {top:0.00rem;}
+.t5 {top:0.05rem;}
+.t10 {top:0.10rem;}
+.t12 {top:0.12rem;}
+.t15 {top:0.15rem;}
+.t20 {top:0.20rem;}
+.t25 {top:0.25rem;}
+.t30 {top:0.30rem;}
+.t35 {top:0.35rem;}
+.t40 {top:0.40rem;}
+.t45 {top:0.45rem;}
+.t50 {top:0.50rem;}
+.t60 {top:0.60rem;}
+.t70 {top:0.70rem;}
+.t80 {top:0.80rem;}
+.t90 {top:0.90rem;}
+.t100 {top:1rem;}
 
 .b0 {bottom:0.00rem;}
 .b5 {bottom:0.05rem;}
@@ -423,11 +468,30 @@ t100 {top:1rem;}
 .bdrs20 {-webkit-border-radius:0.2rem;-moz-border-radius:0.2rem;border-radius:0.2rem;}
 .bdrs50p {-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;}
 
+/*文本缩进*/
+
+.ti20{
+    text-indent: 0.20rem;
+}
+.ti24{
+    text-indent: 0.24rem;
+}
+.ti26{
+    text-indent: 0.26rem;
+}
+.ti28{
+    text-indent: 0.28rem;
+}
+.ti30{
+    text-indent: 0.30rem;
+}
+
+
 /*装饰*/
 .n {font-weight:normal;font-style:normal;}
 .b {font-weight:bold;}
 .i {font-style:italic;}
-.ov {overflow:hidden;}
+.ovh {overflow:hidden;}
 .ovs {overflow:scroll;}
 /*其他  ellipsis*/
 .ellipsis {overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
@@ -437,6 +501,12 @@ t100 {top:1rem;}
 .line2 {
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden;
+}
+.line3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical !important;
     overflow: hidden;
 }
