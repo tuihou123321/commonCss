@@ -38,8 +38,8 @@ input {border:none;outline:none;}
 .jcs {justify-content: flex-start;}
 .jcc {justify-content:center;}
 .jce{justify-content: flex-end;}
-.jcsb {justify-content:space-between;}
-.jcsa {justify-content:space-around;}
+.jcb {justify-content:space-between;}
+.jca {justify-content:space-around;}
 
 
 /*flex垂直对齐,start,center,end,stretch*/
@@ -53,8 +53,8 @@ input {border:none;outline:none;}
 .acs{align-content: flex-start;}
 .acc{align-content: center;}
 .ace{align-content: flex-end;}
-.acsb{align-content: space-between;}
-.acsa{align-content: space-around;}
+.acb{align-content: space-between;}
+.aca{align-content: space-around;}
 
 
 /*flex方向，水平row，垂直column*/
