@@ -20,8 +20,8 @@
       <file leaf-file-name="common.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1356">
-              <caret line="545" lean-forward="true" selection-start-line="545" selection-end-line="545" />
+            <state relative-caret-position="451">
+              <caret line="767" column="50" lean-forward="true" selection-start-line="767" selection-start-column="50" selection-end-line="767" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -79,6 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,7 +91,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,12 +132,14 @@
       <workItem from="1532245675253" duration="32000" />
       <workItem from="1541646583432" duration="633000" />
       <workItem from="1541658638438" duration="597000" />
-      <workItem from="1541835591411" duration="608000" />
+      <workItem from="1541835591411" duration="1217000" />
+      <workItem from="1542001434477" duration="599000" />
+      <workItem from="1542338427137" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5150000" />
+    <option name="totallyTimeSpent" value="6366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -147,12 +149,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.46455833" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.46455833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6114222" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6107383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -169,6 +171,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14715">
+          <caret line="545" selection-start-line="545" selection-end-line="545" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14715">
+          <caret line="545" lean-forward="true" selection-start-line="545" selection-end-line="545" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14715">
@@ -263,8 +293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1356">
-          <caret line="545" lean-forward="true" selection-start-line="545" selection-end-line="545" />
+        <state relative-caret-position="451">
+          <caret line="767" column="50" lean-forward="true" selection-start-line="767" selection-start-column="50" selection-end-line="767" selection-end-column="50" />
         </state>
       </provider>
     </entry>

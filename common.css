@@ -315,6 +315,25 @@ input {border:none;outline:none;}
 .mb100 {margin-bottom:1rem;}
 
 
+/*边距百分比*/
+.mt0p {margin-top:0%;}
+.mt5p {margin-top:5%;}
+.mt10p {margin-top:10%;}
+.mt12p {margin-top:12%;}
+.mt15p {margin-top:15%;}
+.mt20p {margin-top:20%;}
+.mt25p {margin-top:25%;}
+.mt30p {margin-top:30%;}
+.mt35p {margin-top:35%;}
+.mt40p {margin-top:40%;}
+.mt45p {margin-top:45%;}
+.mt50p {margin-top:50%;}
+.mt60p {margin-top:60%;}
+.mt70p {margin-top:70%;}
+.mt80p {margin-top:80%;}
+.mt90p {margin-top:90%;}
+.mt100p {margin-top:1rem;}
+
 
 /*宽高*/
 .w5 {width:0.05rem;}
@@ -344,8 +363,6 @@ input {border:none;outline:none;}
 .h32 {height:0.32rem;}
 .h35 {height:0.35rem;}
 .h40 {height:0.40rem;}
-
-
 .h45 {height:0.45rem;}
 .h50 {height:0.50rem;}
 .h60 {height:0.60rem;}
@@ -353,6 +370,44 @@ input {border:none;outline:none;}
 .h80 {height:0.80rem;}
 .h90 {height:0.90rem;}
 .h100 {height:1rem;}
+.h150 {height:1.5rem;}
+.h200 {height:2rem;}
+.h250 {height:2.5rem;}
+.h300 {height:3rem;}
+.h350 {height:3.5rem;}
+.h400 {height:4rem;}
+.h450 {height:4.5rem;}
+.h500 {height:5rem;}
+
+/*行高*/
+.lh5 {line-height:0.05rem;}
+.lh10 {line-height:0.10rem;}
+.lh12 {line-height:0.12rem;}
+.lh15 {line-height:0.15rem;}
+.lh20 {line-height:0.20rem;}
+.lh25 {line-height:0.25rem;}
+.lh30 {line-height:0.30rem;}
+.lh32 {line-height:0.32rem;}
+.lh35 {line-height:0.35rem;}
+.lh40 {line-height:0.40rem;}
+.lh45 {line-height:0.45rem;}
+.lh50 {line-height:0.50rem;}
+.lh60 {line-height:0.60rem;}
+.lh70 {line-height:0.70rem;}
+.lh80 {line-height:0.80rem;}
+.lh90 {line-height:0.90rem;}
+.lh100{line-height:1rem;}
+.lh150 {line-height:1.5rem;}
+.lh200 {line-height:2rem;}
+.lh250 {line-height:2.5rem;}
+.lh300 {line-height:3rem;}
+.lh350 {line-height:3.5rem;}
+.lh400 {line-height:4rem;}
+.lh450 {line-height:4.5rem;}
+.lh500 {line-height:5rem;}
+
+
+
 
 /*自定义宽度*/
 .w100p {width:100%;}
@@ -451,6 +506,45 @@ input {border:none;outline:none;}
 .r90 {right:0.90rem;}
 .r100 {right:1rem;}
 
+/*百分比距离*/
+.l0p {left:0;}
+.l5p {left:5%;}
+.l10p {left:10%;}
+.l12p {left:12%;}
+.l15p {left:15%;}
+.l20p {left:20%;}
+.l25p {left:25%;}
+.l30p {left:30%;}
+.l35p {left:35%;}
+.l40p {left:40%;}
+.l45p {left:45%;}
+.l50p {left:50%;}
+.l60p {left:60%;}
+.l70p {left:70%;}
+.l80p {left:80%;}
+.l90p {left:90%;}
+.l100p {left:100%;}
+
+.r0p {right:0;}
+.r5p {right:5%;}
+.r10p {right:10%;}
+.r12p {right:12%;}
+.r15p {right:15%;}
+.r20p {right:20%;}
+.r25p {right:25%;}
+.r30p {right:30%;}
+.r35p {right:35%;}
+.r40p {right:40%;}
+.r45p {right:45%;}
+.r50p {right:50%;}
+.r60p {right:60%;}
+.r70p {right:70%;}
+.r80p {right:80%;}
+.r90p {right:90%;}
+.r100p {right:100%;}
+
+
+
 /*边框bd*/
 .bdb1 {border-bottom:1px solid #e4e4e4;}
 .bdt1 {border-top:1px solid #e4e4e4;}
@@ -467,9 +561,12 @@ input {border:none;outline:none;}
 .bdrs15 {-webkit-border-radius:0.15rem;-moz-border-radius:0.15rem;border-radius:0.15rem;}
 .bdrs20 {-webkit-border-radius:0.2rem;-moz-border-radius:0.2rem;border-radius:0.2rem;}
 .bdrs50p {-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;}
+.bdtlr0{border-top-left-radius:0;}
+.bdtrr0{border-top-right-radius: 0;}
+.bdblr0{border-bottom-left-radius: 0;}
+.bdbrr0{border-bottom-right-radius: 0;}
 
 /*文本缩进*/
-
 .ti20{
     text-indent: 0.20rem;
 }
@@ -486,6 +583,145 @@ input {border:none;outline:none;}
     text-indent: 0.30rem;
 }
 
+/*css3动画,transition*/
+.trs01s{
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+}
+.trs02s{
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+.trs03s{
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.trs04s{
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.trs05s{
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.trs06s{
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+}
+.trs07s{
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+}
+.trs08s{
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+    transition: 0.8s;
+}
+.trs09s{
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -ms-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+}
+.trs1s{
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+.trs2s{
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+}
+.trs3s{
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s;
+}
+.trs4s{
+    -webkit-transition: 4s;
+    -moz-transition: 4s;
+    -ms-transition: 4s;
+    -o-transition: 4s;
+    transition: 4s;
+}
+.trs5s{
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -ms-transition: 5s;
+    -o-transition: 5s;
+    transition: 5s;
+}
+.trs6s{
+    -webkit-transition: 6s;
+    -moz-transition: 6s;
+    -ms-transition: 6s;
+    -o-transition: 6s;
+    transition: 6s;
+}
+.trs7s{
+    -webkit-transition: 7s;
+    -moz-transition: 7s;
+    -ms-transition: 7s;
+    -o-transition: 7s;
+    transition: 7s;
+}
+.trs8s{
+    -webkit-transition: 8s;
+    -moz-transition: 8s;
+    -ms-transition: 8s;
+    -o-transition: 8s;
+    transition: 8s;
+}
+.trs9s{
+    -webkit-transition: 9s;
+    -moz-transition: 9s;
+    -ms-transition: 9s;
+    -o-transition: 9s;
+    transition: 9s;
+}
+.trs10s{
+    -webkit-transition: 10s;
+    -moz-transition: 10s;
+    -ms-transition: 10s;
+    -o-transition: 10s;
+    transition: 10s;
+}
+
+/*偏移量*/
+.trft50p{
+    transform: translate(-50%, -50%);
+}
 
 /*装饰*/
 .n {font-weight:normal;font-style:normal;}
