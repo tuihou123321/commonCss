@@ -35,18 +35,120 @@ input {border:none;outline:none;}
 .fx10 {  -webkit-box-flex: 10;-webkit-flex: 10;-moz-box-flex: 10;-moz-flex: 10;-ms-flex: 10;flex: 10;}
 
 /*flex水平对齐,start,center,end,between,around*/
-.jcs {justify-content: flex-start;}
-.jcc {justify-content:center;}
-.jce{justify-content: flex-end;}
-.jcb {justify-content:space-between;}
-.jca {justify-content:space-around;}
+.jcs {
+    -webkit-box-pack: start;
+    -moz-justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+.jcc {
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.jce{
+    -webkit-box-pack: end;
+    -moz-justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+.jcb {
+    /* 09版 */
+    -webkit-box-pack:space-between ;/*start      space-between  end    justify*/
+    /* 12版 */
+    -webkit-justify-content:  space-between ;
+    -moz-justify-content:  space-between ;
+    -ms-justify-content:  space-between ;
+    -o-justify-content:  space-between ;
+    justify-content:  space-between ;
+    -webkit-flex-pack:  space-between ;
+    flex-pack:  space-between ; /*start   center end    justify     distribute*/
+
+}
+.jca {
+    /* 09版 */
+    -webkit-box-pack: justify; /*start  center  end    justify*/
+    /* 12版 */
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    -ms-justify-content: space-around;
+    -o-justify-content: space-around;
+    justify-content: space-around;
+
+    -webkit-flex-pack: distribute;
+    flex-pack: distribute; /*start  center  end    justify    distribute*/
+    /* 其它取值如下：
+        flex-start  |  主轴原点方向对齐
+        flex-end        主轴延伸方向对齐
+        space-between   等间距排列，首尾不留白
+        space-around    等间距排列，首尾留白
+     */
+}
+
+/*flex方向，水平row，垂直column*/
+.fxdc{
+    /* 12版 */
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+}
+.fxdcr{
+    -webkit-flex-direction: column-reverse;
+    -moz-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    -o-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+.fxdr{
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+}
+.fxdrr{
+    -webkit-flex-direction: row-reverse;
+    -moz-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    -o-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+
+/*flex水平方向换行*/
+.fxww{flex-wrap: wrap;}
+.fxwn{flex-wrap: nowrap;}
+.fxwr{flex-wrap: wrap-reverse;}
 
 
 /*flex垂直对齐,start,center,end,stretch*/
-.ais{align-items: flex-start;}
-.aic {align-items:center}
-.aie{align-items: flex-end;}
-.aisr{align-items: stretch;}
+.ais{
+    -webkit-box-align: start;
+    -moz-align-items: flex-start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+.aic {
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.aie{
+    -webkit-box-align: end;
+    -moz-align-items: flex-end;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+}
+.aisr{
+    -webkit-box-align: stretch;
+    -moz-align-items: stretch;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
 
 
 /*flex 内容垂直对齐，start,center,end,*/
@@ -56,18 +158,6 @@ input {border:none;outline:none;}
 .acb{align-content: space-between;}
 .aca{align-content: space-around;}
 
-
-/*flex方向，水平row，垂直column*/
-.fxdc{flex-direction: column;}
-.fxdcr{flex-direction: column-reverse;}
-.fxdr{flex-direction: row;}
-.fxdrr{flex-direction: row-reverse;}
-
-
-/*flex水平方向换行*/
-.fxww{flex-wrap: wrap;}
-.fxwn{flex-wrap: nowrap;}
-.fxwr{flex-wrap: wrap-reverse;}
 
 /*flex垂直拉伸效果*/
 
@@ -96,6 +186,8 @@ input {border:none;outline:none;}
 .ls2 {letter-spacing:2px;}
 .ls3 {letter-spacing:3px;}
 /*font*/
+.fz6 {font-size:0.06rem;}
+.fz8 {font-size:0.08rem;}
 .fz10 {font-size:0.1rem;}
 .fz11 {font-size:0.1rem;}
 .fz12 {font-size:0.12rem;}
@@ -119,8 +211,14 @@ input {border:none;outline:none;}
 .fz90 {font-size:0.9rem;}
 .fz100 {font-size:1rem;}
 /*颜色*/
+.c1 {color:#111;}
+.c2 {color:#222;}
 .c3 {color:#333;}
+.c4 {color:#444;}
+.c5 {color:#555;}
 .c6 {color:#666;}
+.c7 {color:#777;}
+.c8 {color:#888;}
 .c9 {color:#999;}
 .white {color:white}
 .black {color:black}
@@ -222,6 +320,92 @@ input {border:none;outline:none;}
 .pb90 {padding-bottom:0.90rem;}
 .pb100 {padding-bottom:1rem;}
 
+/*简化padding写法*/
+.plr5{
+    padding-left: 0.05rem;
+    padding-right: 0.05rem;
+}
+.plr10{
+    padding-left: 0.10rem;
+    padding-right: 0.10rem;
+}
+.plr15{
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+}
+.plr20{
+    padding-left: 0.20rem;
+    padding-right: 0.20rem;
+}
+.plr25{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+.plr30{
+    padding-left: 0.30rem;
+    padding-right: 0.30rem;
+}
+.plr35{
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+}
+.plr40{
+    padding-left: 0.40rem;
+    padding-right: 0.40rem;
+}
+.plr45{
+    padding-left: 0.45rem;
+    padding-right: 0.45rem;
+}
+.plr50{
+    padding-left: 0.50rem;
+    padding-right: 0.50rem;
+}
+
+/*padding上下距离*/
+.ptb5{
+    padding-top: 0.05rem;
+    padding-bottom: 0.05rem;
+}
+.ptb10{
+    padding-top: 0.10rem;
+    padding-bottom: 0.10rem;
+}
+.ptb15{
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+}
+.ptb20{
+    padding-top: 0.20rem;
+    padding-bottom: 0.20rem;
+}
+.ptb25{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+.ptb30{
+    padding-top: 0.30rem;
+    padding-bottom: 0.30rem;
+}
+.ptb35{
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+}
+.ptb40{
+    padding-top: 0.40rem;
+    padding-bottom: 0.40rem;
+}
+.ptb45{
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
+}
+.ptb50{
+    padding-top: 0.50rem;
+    padding-bottom: 0.50rem;
+}
+
+
+
 
 /*边距margin/p,m*/
 .m0 {margin:0.00rem;}
@@ -306,7 +490,7 @@ input {border:none;outline:none;}
 .mb30 {margin-bottom:0.30rem;}
 .mb35 {margin-bottom:0.35rem;}
 .mb40 {margin-bottom:0.40rem;}
-.mb40 {margin-bottom:0.45rem;}
+.mb45 {margin-bottom:0.45rem;}
 .mb50 {margin-bottom:0.50rem;}
 .mb60 {margin-bottom:0.60rem;}
 .mb70 {margin-bottom:0.70rem;}
@@ -314,6 +498,47 @@ input {border:none;outline:none;}
 .mb90 {margin-bottom:0.90rem;}
 .mb100 {margin-bottom:1rem;}
 
+/*简化margin写法*/
+.mlr5{
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+}
+.mlr10{
+    margin-left: 0.10rem;
+    margin-right: 0.10rem;
+}
+.mlr15{
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
+}
+.mlr20{
+    margin-left: 0.20rem;
+    margin-right: 0.20rem;
+}
+.mlr25{
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+.mlr30{
+    margin-left: 0.30rem;
+    margin-right: 0.30rem;
+}
+.mlr35{
+    margin-left: 0.35rem;
+    margin-right: 0.35rem;
+}
+.mlr40{
+    margin-left: 0.40rem;
+    margin-right: 0.40rem;
+}
+.mlr45{
+    margin-left: 0.45rem;
+    margin-right: 0.45rem;
+}
+.mlr50{
+    margin-left: 0.50rem;
+    margin-right: 0.50rem;
+}
 
 /*边距百分比*/
 .mt0p {margin-top:0%;}
@@ -380,6 +605,7 @@ input {border:none;outline:none;}
 .h500 {height:5rem;}
 
 /*行高*/
+.lh0 {line-height:0rem;}
 .lh5 {line-height:0.05rem;}
 .lh10 {line-height:0.10rem;}
 .lh12 {line-height:0.12rem;}
@@ -564,7 +790,16 @@ input {border:none;outline:none;}
 .bdtlr0{border-top-left-radius:0;}
 .bdtrr0{border-top-right-radius: 0;}
 .bdblr0{border-bottom-left-radius: 0;}
-.bdbrr0{border-bottom-right-radius: 0;}
+.bdbrr0{border-bottom-right-radius: 0}
+/*合成部分*/
+.bdrst0{
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+.bdrsb0{
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+}
 
 /*文本缩进*/
 .ti20{
@@ -722,6 +957,23 @@ input {border:none;outline:none;}
 .trft50p{
     transform: translate(-50%, -50%);
 }
+
+/*文本阴影*/
+.txs1{
+    text-shadow: 1px 1px 1px #383838;
+}
+/*垂直居中*/
+.vam{
+    vertical-align: middle;
+}
+.vat{
+    vertical-align: top;
+}
+.vab{
+    vertical-align: bottom;
+}
+
+
 
 /*装饰*/
 .n {font-weight:normal;font-style:normal;}
