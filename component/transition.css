@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/*css3动画,transition*/
+.trs01s {
+  -webkit-transition: .1s;
+  transition: .1s; }
+
+.trs02s {
+  -webkit-transition: .2s;
+  transition: .2s; }
+
+.trs03s {
+  -webkit-transition: .3s;
+  transition: .3s; }
+
+.trs04s {
+  -webkit-transition: .4s;
+  transition: .4s; }
+
+.trs05s {
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.trs06s {
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+.trs07s {
+  -webkit-transition: .7s;
+  transition: .7s; }
+
+.trs08s {
+  -webkit-transition: .8s;
+  transition: .8s; }
+
+.trs09s {
+  -webkit-transition: .9s;
+  transition: .9s; }
+
+.trs1s {
+  -webkit-transition: 1s;
+  transition: 1s; }
+
+.trs2s {
+  -webkit-transition: 2s;
+  transition: 2s; }
+
+.trs3s {
+  -webkit-transition: 3s;
+  transition: 3s; }
+
+.trs4s {
+  -webkit-transition: 4s;
+  transition: 4s; }
+
+.trs5s {
+  -webkit-transition: 5s;
+  transition: 5s; }
+
+.trs6s {
+  -webkit-transition: 6s;
+  transition: 6s; }
+
+.trs7s {
+  -webkit-transition: 7s;
+  transition: 7s; }
+
+.trs8s {
+  -webkit-transition: 8s;
+  transition: 8s; }
+
+.trs9s {
+  -webkit-transition: 9s;
+  transition: 9s; }
+
+.trs10s {
+  -webkit-transition: 10s;
+  transition: 10s; }
+
+/*偏移量*/
+.trft50p {
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }

@@ -1,0 +1,67 @@
+/*font*/
+.fz6 {font-size:6px;}
+.fz8 {font-size:8px;}
+.fz10 {font-size:10px;}
+.fz11 {font-size:11px;}
+.fz12 {font-size:12px;}
+.fz13 {font-size:13px;}
+.fz14 {font-size:14px;}
+.fz15 {font-size:15px;}
+.fz16 {font-size:16px;}
+.fz17 {font-size:17px;}
+.fz18 {font-size:18px;}
+.fz20 {font-size:20px;}
+.fz22 {font-size:22px;}
+.fz24 {font-size:24px;}
+.fz26 {font-size:26px;}
+.fz28 {font-size:28px;}
+.fz30 {font-size:30px;}
+.fz40 {font-size:40px;}
+.fz50 {font-size:50px;}
+.fz60 {font-size:60px;}
+.fz70 {font-size:70px;}
+.fz80 {font-size:80px;}
+.fz90 {font-size:90px;}
+.fz100 {font-size:100px;}
+
+
+/*文本缩进*/
+.ti20{text-indent:20px}
+.ti24{text-indent:24px}
+.ti26{text-indent:26px}
+.ti28{text-indent:28px}
+.ti30{text-indent:30px}
+
+
+/*文本缩进*/
+.ls1- {letter-spacing:-1px;}
+.ls2- {letter-spacing:-2px;}
+.ls3- {letter-spacing:-3px;}
+.ls1 {letter-spacing:1px;}
+.ls2 {letter-spacing:2px;}
+.ls3 {letter-spacing:3px;}
+
+
+/*文本对齐 center,right*/
+.tac {text-align:center;}
+.tar {text-align:right;}
+.tal {text-align:left;}
+.taj {text-align:justify;}
+.fl {float:left;}
+.fr {float:right;}
+
+
+/*文本阴影*/
+.txs1{text-shadow: 1px 1px 1px #383838;}
+
+
+.n {font-weight:normal;font-style:normal;}
+.b {font-weight:bold;}
+.i {font-style:italic;}
+
+
+.line1{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.line2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical!important;overflow:hidden}
+.line3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical!important;overflow:hidden}
+
+.ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
